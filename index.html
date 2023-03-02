@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- <h1>Unit Converter</h1>
+    <div id="container">
+        <div class="input-div">
+            <label for="">Miles</label><br>
+            <input type="number" value="1" id="miles" class="inpt">
+        </div>
+        <div class="input-div">
+            <h1>=</h1>
+        </div>
+        <div class="input-div">
+            <label for="">Kilo</label><br>
+            <input type="number" value="1.60934"
+            id="kilo" class="inpt">
+        </div>
+    </div>  -->
+    
+    <script>
+                    //1//
+        /*console.log('even numbers are'); 
+        for (let i = 0; i < 10; i++) {
+            if (i % 2 === 0 && i !== 0)
+            console.log(i);
+        };
+
+        console.log('odd numbers are');
+        for (let i = 0; i < 10; i++) {
+            if (i % 2 !== 0)
+            console.log(i);
+        };
+
+                //2//
+        // Multiplication Table
+        for (let i = 0; i <= 10; i++){
+            for (let j = 0; j <= 10; j++ ){
+                console.log(` ${i} * ${j} = ${i*j}`)
+            }
+        };*/ 
+
+                //3//
+        // length converter function //
+        // const factor = 0.621371;
+
+        // function kiloToMiles(km){
+        //     return km * factor;
+        // };
+
+        // function mileToKilo(m){
+        //     return m / factor;
+        // }
+        // console.log(kiloToMiles(4));
+        // console.log(mileToKilo(4));
+
+       
+                //4//
+        // function total(arr) {
+        //     let sum = 0;
+        //     for (let i = 0; i < arr.length; i++){
+        //         sum += arr[i];
+        //     }
+        //     return sum;
+        // };
+        // console.log(total([7, 3, 8, 4]));
+
+        // sum of numbers within an array //
+	// let numbers=[10,-12,89,56,-83,8,90,-8,9 ];
+	// let pos_count = neg_count = 0;
+
+	// for(let i = 0; i <numbers.length; i++) {
+	// if (numbers[i]<0) neg_count++;
+	// else pos_count++;
+	// }
+	// console.log(`The positive numbers in an array is ${pos_count}`)
+	// console.log(`The negative numbers in an array is ${neg_count}`)
+
+
+
+
+                    //5//
+            
+            // reverses an array //
+                     //1//
+        // let arr = [0,1,2,3,4,5,6,7].reverse();
+        // console.log("Reversed array is : " + arr );
+                    
+                    //2//
+        // function reverseBigToSmall(arr){
+        //     for(let i = arr.length - 1; i >= 0; i--)
+        //     console.log(arr[i])
+        // };
+        // reverseBigToSmall([1, 2, 3, 4, 5, 6, 7, 8]);
+            
+        // function bigToSmall(a){
+        //     return a.sort((a, b) => {
+        //         return b - a;
+        //     });
+        // }
+        // console.log(bigToSmall([23, 12, 54, 14, 36, 44]));
+                    
+                    //3//
+        // function bigToSmall(arr) {
+        //     for (let i = 0; i < arr.length; i++) {
+        //         for (let j = i + 1; j < arr.length; j++) {
+        //             if (arr[i] < arr[j]) {
+        //                 [arr[i], arr[j]] = [arr[j], arr[i]];
+        //             }
+        //         }
+        //     }
+        //     return arr;
+        // }
+        // console.log(bigToSmall([23, 12, 54, 14, 36, 44]));
+
+                    //4//
+        // let BigToSmall = [23, 12, 54, 14, 36, 44];
+        // BigToSmall.sort (function (a , b){
+        //     return b - a;
+        // });
+        // console.log(BigToSmall);
+
+                //5//
+        // let SmallToBig = [23, 12, 54, 14, 36, 44];
+        // SmallToBig.sort (function (a , b){
+        //     return a - b;
+        // });
+        // console.log(SmallToBig);
+        // --------------------------------------------------------------
+        
+        // Sort an array //
+        // let numbers = [0, 1 , 2, 3, 10, 20, 30, -3, -7 ];
+        // numbers.sort( function( a , b){
+        //     if(a > b) return 1;
+        //     if(a < b) return -1;
+        //     return 0;
+        // });
+        // console.log(numbers);
+
+        // filters out negative numbers//
+        // function removeNegative(arr) {
+        //     let newArr = [];
+        //     for (let i = 0; i <= arr.length; i++) {
+        //         if (arr[i] >= 0) {
+        //             newArr.push(arr[i]);
+        //         }
+        //     }
+        //     return newArr;
+        // }
+        // console.log(removeNegative([2, 5, 5.5, -3, 6.8, 0, -5]));
+        // console.log(removeNegative([0, 6, -8]));
+
+                // even and odd with function //
+        // function even(arr){
+        //     let evenNew = [];
+        //     for( let z = 0; z < arr.length; z++){
+        //         if (arr[z] % 2 === 0){
+        //             evenNew.push(arr[z])
+        //         }
+        //     };
+        //     return evenNew;
+        // }
+        // console.log(even([5, 8, 9, 12, 18, 25, 32, 4,]));
+
+        // function odd(ar){
+        //     let oddNew = [];
+        //     for( let i = 0; i < ar.length; i++){
+        //     if (ar[i] % 2 !== 0)
+        //     oddNew.push(ar[i]);
+        //     };
+        //     return oddNew;
+        // }
+        // console.log(odd([5, 8, 9, 12, 18, 25, 32, 4, 7]));
+
+        
+        
+        
+        //  Remove the spaces found in a string
+
+            // 1 //
+        // const str = "   foo  ";
+        // console.log(str.trim()); 
+
+        // 2 //
+        // let str2 = '   Hello world!   ';
+        // console.log(str2.trim());
+
+    //    function divide(number){
+    //         if (number % 10 == 0){
+    //             return true;
+    //         }
+    //         else{
+    //             return false;
+    //         }
+    //     };
+    //     console.log(divide(96));
+
+            //number of vowels//
+                    //1//
+
+        // function getVowels(str) 
+        // console.log(getVowels('abcdefi'))
+
+
+                //2 // number of consonent//
+        // function vowelCheck(check) {
+        //     let count = 0;
+        //     for (let i = 0; i <check.length; i++){
+        //         if (check[i] !== 'a' && check[i] !== 'e' && check[i] !== 'i' && check[i] !== 'o' && check[i] !== 'u' && check[i] != ' ') {
+        //             count += 1;
+        //         }
+        //     };
+        //     return count;
+        // }
+        // console.log(vowelCheck('  abeebc'));
+
+
+        const cars = ['bus', 'car', 'cycle', 'truck'];
+        for (let i = 0; i < cars.length; i++)
+        console.log(cars[i ]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        // function getCount(str){
+        //     let vowelCount = 'mycountryisbangladesh';
+        //     const vowels = ['a', 'e', 'i', 'o', 'u'];
+        //     for (let char of str){
+        //         if (vowels.includes(char)){
+        //             vowelsCount++
+        //         }
+        //     }
+        //     return vowelsCount
+        // };
+        // console.log(getCount());
+
+
+        
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+        
+        
+
+        
+    </script>
+</body>
+</html>
