@@ -1,0 +1,115 @@
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 320px){
+    .copyright .left-section{
+        flex-basis: 100%;
+    }
+    .sidebar, .color-main .menu, .color .color-box2, .right-navbar ul li .eng, .right-navbar ul li.moon, .right-navbar ul li.name, .copyright .left-section span, .copyright .right-section{
+        display: none;
+    }
+    .sub{
+        margin: 0;
+        padding:0 14px;
+    }
+    .left-navbar ul li{
+        display: none;
+    }
+    .left-navbar ul li.hidden{
+        display: inline;
+    }
+    .color-main{
+        margin: 10px 0 10px 0;
+        
+    }
+    .gradiant-colors, .defaults-colors{
+        margin-top: 10px;
+        padding: 15px;
+        
+    }
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 360px){
+    .gradiant-colors, .defaults-colors{
+        margin-top: 15px;
+        padding: 18px; 
+    } 
+}
+   
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 425px){
+    
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 600px){
+    .right-navbar ul li .eng, .right-navbar ul li.name, .color .color-box2, .copyright .left-section span{
+        margin-left: 5.6px;
+        display: inline;
+    }
+    .sub{
+        padding:0 28px;
+    }
+    .color-main{
+        margin: 20px 0 15px 0;
+        
+    }
+      
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media  (min-width: 768px){
+    .color-main .menu, .copyright .right-section{
+        display: inline;
+    }
+    .copyright .right-section {
+        flex-basis: 44%;
+    }
+}
+
+
+/*==============================
+    Laptop
+===============================*/
+@media  (min-width: 992px){
+    .left-navbar ul li, .right-navbar ul li.moon{
+        display: inline;
+    }
+}
+
+/*==============================
+    Tab
+===============================*/
+@media (min-width: 1200px){
+    .left-navbar ul li.hidden {
+        display: none;
+    }
+    .sidebar{
+        display: inline;
+    }
+    .sub{
+        margin-left: 85px;
+    }
+    
+}
+
+/*==============================
+Desktop
+===============================*/
+@media (min-width: 1400px){
+    
+}
+
+
+
+
